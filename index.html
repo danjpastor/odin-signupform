@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Odin - Signup Form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div id="login">
+        <div id="title-container">
+            <div class="logo-container">
+                <div class="logo">
+                <img alt="logo" src="images/odin-lined.png"/>Odin
+                </div>
+            </div>
+            <div class="credit">
+                Photo by <a href="https://unsplash.com/@britosebastian?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Brito</a> on
+                <a href="https://unsplash.com/photos/a-close-up-view-of-a-ceiling-made-of-blue-corrugated-uHeWMlXgosQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </div>
+        </div>
+        <div id="form-container">
+            <div class="child1">
+                <h2>This is not a real online service! You know you need something like this in your
+                    life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                    <p>
+                        You <em>know</em> you want to
+                    </p>
+                </h2>
+            </div>
+            <div class="child2">
+                <h2>Lets do this!</h2>
+                    <form class="form" action="https://httpbin.org/post" method="post">
+                        <div class="col">
+                            <div class="row">
+                                <label for="first-name">First Name</label>
+                                <input title="first-name" type="text" required>
+                            </div>
+                            <div class="row">
+                                <label for="email">Email</label>
+                                <input title="email" type="email" placeholder="youremail@email.com" required>
+                            </div>
+            
+                            <div class="row">
+                                <label for="password">Password</label>
+                                <input title="password" type="password" id="password" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <label for="last-name">Last Name</label>
+                                <input title="last-name" type="text" required>
+                            </div>
+                            <div class="row">
+                                <label for="phone-number">Phone Number</label>
+                                <input title="phone-number" type="text" placeholder="(555) 555-555" required>
+                            </div>
+            
+                            <div class="row">
+                                <label for="password">Confirm Password</label>
+                                <input title="password" type="password" id="confirm-password" required>
+                            </div>
+                        </div>
+            </div>
+            <div class="child3">
+                <div class="register">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+                <div>
+                    <p>Already have an account? <a href="#">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
