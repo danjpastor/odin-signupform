@@ -83,9 +83,9 @@ body {
 }
 
 #form-container .child2 {
-    --shadow-color: rgb(209, 209, 209);
+    --shadow-color: rgb(189, 189, 189);
 
-    box-shadow: 0px 5px 5px 0px var(--shadow-color);
+    box-shadow: 0px 8px 5px -5px var(--shadow-color);
     box-sizing: border-box;
     z-index: 1;
     border-top: 1px solid var(--shadow-color);
@@ -132,7 +132,7 @@ div h2 {
 }
 
 input {
-    padding: 0px;
+    padding-left: 10px;
     margin: 0px;
     height: 25px;
     width: 225px;
